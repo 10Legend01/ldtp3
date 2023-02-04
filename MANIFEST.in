@@ -1,0 +1,10 @@
+include examples/*.py
+include scripts/ldtp
+include AUTHORS
+include COPYING
+include Doxyfile
+include doc/ldtp-*
+include ldtp/Java/src/com/cobra/ldtp/*.java
+include ldtp/ldtp.rb
+include ldtp/Ldtp/Ldtp*
+include ldtp/Ldtp/Properties/AssemblyInfo.cs
