@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """
-LDTP v2 Core.
+LDTP v3 Core.
 
-@author: Eitan Isaacson <eitan@ascender.com>
-@author: Nagappan Alagappan <nagappan@gmail.com>
-@copyright: Copyright (c) 2009 Eitan Isaacson
-@copyright: Copyright (c) 2009-13 Nagappan Alagappan
+@author: Mikhail Nazarov <mihailnazarov01@mail.ru>
+@copyright: Copyright (c) 2022 Mikhail Nazarov
 @license: LGPL
 
 http://ldtp.freedesktop.org
@@ -23,11 +21,10 @@ Headers in this file shall remain intact.
 from setuptools import setup
 
 setup(name="ldtp",
-      version="3.7.0",
-      description="Linux Desktop Testing Project Version 2",
-      maintainer="Nagappan Alagappan",
-      maintainer_email="nagappan@gmail.com",
-      url="http://ldtp.freesktop.org",
+      version="4.0.0",
+      description="Linux Desktop Testing Project Version 3",
+      maintainer="Mikhail Nazarov",
+      maintainer_email="mihailnazarov01@mail.ru",
       license="GNU Lesser General Public License (LGPL)",
       install_requires=["twisted"],
       packages=["ldtp", "ldtpd", "ooldtp", "ldtputils", "ldtpme"],
